@@ -13,4 +13,16 @@ Administradores têm acesso a funcionalidades avançadas, como atribuição de i
 Facilidade de Uso:
 Proporciona uma experiência intuitiva para gerenciar inventários, simplificando a organização e o controle de itens domésticos.
 
-Esse sistema não apenas organiza inventários de maneira estruturada, mas também garante segurança e praticidade no gerenciamento de informações residenciais.
+Esse sistema não apenas organiza inventários de maneira estruturada, mas também garante segurança e praticidade no gerenciamento de informações residenciais.\
+
+Anne Caroline Jadoski Ribas
+Rgm: 34123768
+
+Marcela dos Santos Gorge 
+Rgm: 34408088
+
+Mell Karine Bueno
+Rgm: 35306335
+
+Thiago Guimarães
+Rgm: 34172050
