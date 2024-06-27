@@ -1,0 +1,12 @@
+[
+  {
+    "itens": [
+      {
+        "quantidade": 2,
+        "validade": "30/12/9999",
+        "nome": "vassoura"
+      }
+    ],
+    "nome": "limpeza"
+  }
+]

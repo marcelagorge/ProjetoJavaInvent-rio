@@ -4,7 +4,6 @@ import com.Modelos.Categoria;
 import com.Modelos.Comodo;
 import com.Modelos.Item;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import java.io.FileReader;
 import java.io.IOException;

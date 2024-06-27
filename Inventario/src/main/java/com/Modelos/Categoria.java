@@ -3,21 +3,16 @@ package com.Modelos;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Categoria {
-    private String nome;
+public class Categoria extends Elementos {
     private List<Item> itens;
 
-    public Categoria(String nome) {
-        this.nome = nome;
+    public Categoria() {
         this.itens = new ArrayList<>();
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public Categoria(String nome) {
+        super(nome); // Chama o construtor da classe Elementos que recebe um nome
+        this.itens = new ArrayList<>();
     }
 
     public List<Item> getItens() {
@@ -49,7 +44,7 @@ public class Categoria {
     @Override
     public String toString() {
         return "Categoria{" +
-                "nome='" + nome + '\'' +
+                "nome='" + getNome() + '\'' +
                 ", itens=" + itens +
                 '}';
     }

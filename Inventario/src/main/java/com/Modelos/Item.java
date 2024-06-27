@@ -3,30 +3,23 @@ package com.Modelos;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-public class Item {
-    private String nome;
+
+public class Item extends Elementos {
     private Categoria categoria;
     private Comodo comodo;
     private int quantidade;
-    private String validade; 
+    private String validade;
 
-  
+    public Item(){}
+
     public Item(String nome, Categoria categoria, Comodo comodo, int quantidade, String validade) {
-        this.nome = nome;
+        super(nome); 
         this.categoria = categoria;
         this.comodo = comodo;
         this.quantidade = quantidade;
         this.validade = validade;
     }
 
-    
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
 
     public Categoria getCategoria() {
         return categoria;
@@ -60,13 +53,10 @@ public class Item {
         this.validade = validade;
     }
 
-    
     @Override
     public String toString() {
         return "Item{" +
-                "nome='" + nome + '\'' +
-                ", categoria=" + categoria +
-                ", comodo=" + comodo +
+                "nome='" + getNome() + '\'' +
                 ", quantidade=" + quantidade +
                 ", validade='" + validade + '\'' +
                 '}';
@@ -79,4 +69,3 @@ public class Item {
         return diasRestantes <= dias && diasRestantes >= 0;
     }
 }
-
