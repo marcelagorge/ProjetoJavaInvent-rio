@@ -1,4 +1,3 @@
----
 
 # Sistema de Gerenciamento de Inventário Domiciliar
 
@@ -35,4 +34,3 @@ Esse sistema não apenas organiza inventários de maneira estruturada, mas tamb�
 - *Thiago Guimarães*
   - RGM: 34172050
 
----
